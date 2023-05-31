@@ -207,6 +207,7 @@ ruby > rt {
 .card__image {
   position: relative;
   margin-bottom: 1.5em;
+  background-color: hsl(215, 51%, 70%);
   -webkit-border-radius: 0.5em;
   -moz-border-radius: 0.5em;
   border-radius: 0.5em;
@@ -237,6 +238,8 @@ ruby > rt {
 }
 
 .card__image img {
+  width: 100%;
+  height: auto;
   -webkit-border-radius: inherit;
   -moz-border-radius: inherit;
   border-radius: inherit;
