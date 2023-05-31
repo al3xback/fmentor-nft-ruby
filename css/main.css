@@ -270,7 +270,7 @@ ruby > rt {
 .card__stats-list-item {
   display: inline-block;
   width: 50%;
-  font-size: 0.9375rem;
+  font-size: 0.9375em;
 }
 
 .card__stats-list-item:first-child {
@@ -322,9 +322,7 @@ ruby > rt {
   .card__desc {
     margin-bottom: 1.3333333333em;
   }
-  .card__stats-list-item {
-    font-size: 1rem;
-  }
+  .card__stats-list-item,
   .card__author-desc {
     font-size: 1em;
   }

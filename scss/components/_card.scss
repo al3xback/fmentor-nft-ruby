@@ -72,7 +72,7 @@
 .card__stats-list-item {
 	display: inline-block;
 	width: 50%;
-	font-size: func.rem(15);
+	font-size: func.em(15);
 }
 
 .card__stats-list-item:first-child {
@@ -126,10 +126,7 @@
 		margin-bottom: func.em(24, 18);
 	}
 
-	.card__stats-list-item {
-		font-size: func.rem(16);
-	}
-
+	.card__stats-list-item,
 	.card__author-desc {
 		font-size: func.em(16);
 	}
