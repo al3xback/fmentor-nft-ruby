@@ -1,6 +1,5 @@
 @use 'sass:math';
 @use '../abstracts/variables' as var;
-@use '../abstracts/functions' as func;
 
 footer {
 	position: absolute;
@@ -9,11 +8,15 @@ footer {
 	width: 100%;
 	padding: 1em 0;
 	text-align: center;
-	font-size: 0.75em;
+	font-size: 0.8em;
 }
 
 .footer__text {
-	font-size: func.em(18);
+	font-size: inherit;
 	font-weight: var.$font-weight-300;
 	line-height: math.div(26, 18);
+}
+
+footer p {
+	font-size: inherit;
 }
