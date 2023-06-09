@@ -144,6 +144,10 @@ ol {
   padding: 0;
 }
 
+rtc, rt {
+  font-size: inherit;
+}
+
 rtc {
   display: block;
 }
@@ -238,6 +242,10 @@ ruby > rt {
   opacity: 1;
 }
 
+.card__image > rt {
+  display: block;
+}
+
 .card__image img {
   width: 100%;
   height: auto;
@@ -248,6 +256,7 @@ ruby > rt {
 
 .card__content > rt {
   display: block;
+  white-space: normal;
 }
 
 .card__title {
@@ -271,7 +280,7 @@ ruby > rt {
 .card__stats-list-item {
   display: inline-block;
   width: 50%;
-  font-size: 0.9375em;
+  font-size: 0.9375rem;
 }
 
 .card__stats-list-item:first-child {
@@ -323,7 +332,9 @@ ruby > rt {
   .card__desc {
     margin-bottom: 1.3333333333em;
   }
-  .card__stats-list-item,
+  .card__stats-list-item {
+    font-size: 1rem;
+  }
   .card__author-desc {
     font-size: 1em;
   }

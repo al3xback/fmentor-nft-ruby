@@ -42,6 +42,10 @@
 	opacity: 1;
 }
 
+.card__image > rt {
+	display: block;
+}
+
 .card__image img {
 	width: 100%;
 	height: auto;
@@ -50,6 +54,7 @@
 
 .card__content > rt {
 	display: block;
+	white-space: normal; //firefox thing
 }
 
 .card__title {
@@ -73,7 +78,7 @@
 .card__stats-list-item {
 	display: inline-block;
 	width: 50%;
-	font-size: func.em(15);
+	font-size: func.rem(15);
 }
 
 .card__stats-list-item:first-child {
@@ -127,7 +132,10 @@
 		margin-bottom: func.em(24, 18);
 	}
 
-	.card__stats-list-item,
+	.card__stats-list-item {
+		font-size: func.rem(16);
+	}
+
 	.card__author-desc {
 		font-size: func.em(16);
 	}
