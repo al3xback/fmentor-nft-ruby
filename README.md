@@ -20,7 +20,7 @@ Users should be able to:
 ### Built with
 
 - Semantic HTML5 markup
-- Experimental ruby approach
+- Display ruby
 - Mobile-first workflow
 
 ## Author
