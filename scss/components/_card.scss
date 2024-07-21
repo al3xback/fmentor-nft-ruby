@@ -63,8 +63,7 @@
 }
 
 .card__desc {
-	margin-bottom: func.em(16, 18);
-	font-size: func.em(18);
+	margin-bottom: func.em(18);
 	font-weight: var.$font-weight-300;
 	line-height: math.div(26, 18);
 }
@@ -128,6 +127,7 @@
 
 	.card__desc {
 		margin-bottom: func.em(24, 18);
+		font-size: func.em(18);
 	}
 
 	.card__stats-list-item {
